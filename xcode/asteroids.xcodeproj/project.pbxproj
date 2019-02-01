@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		77C8E1DAD5424D288BE8A7A0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F1AC1B2E7764614872FBD43 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				127FF55836BA4A35856565F4 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7A770274574A4F5C908B68D7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94C8E1E9D31343DBA0C910CC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E0995D2C311C43F3805C1404 /* CMake Rules */,
+			);
+			dependencies = (
+				1041FF62CF274A84A39A3E5C /* PBXTargetDependency */,
+				9AD0B0A5E7A34DEAB788BE6A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0939FC34B70B4B4CBBCCFA3B /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Asteroid.cpp */ = {isa = PBXBuildFile; fileRef = A8943460A3574A478112742E /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Asteroid.cpp */; };
+		0C5E312F9F4941E08A2D5350 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Player.cpp */ = {isa = PBXBuildFile; fileRef = AA6FC6CF762C415598B6FB73 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Player.cpp */; };
+		943E6FBC65C443B4AF2F646A /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Bullet.cpp */ = {isa = PBXBuildFile; fileRef = DE2A59BD664D4BA0A555236C /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Bullet.cpp */; };
+		9CF648AAF99A4D1791A4E010 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/main.cpp */ = {isa = PBXBuildFile; fileRef = CA30CA377F5D442D867413C7 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/main.cpp */; };
+		BF135BEE730F42DBAB371916 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 726E663D3B0D4805913134F4 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */; };
+		D2298DE11BA1438FB6DF68CF /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Game.cpp */ = {isa = PBXBuildFile; fileRef = 96AF7C28C9754D2F9808FEBA /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Game.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		08A7572B118D48FF88F07FA4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4720CF3B5EE84129A9EF6934 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C2ECE8CE70604EFBA4A8D331 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F991C5D989B34894BFA1F00F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		67C37037167943B9BD4F58B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8ED865327BD4203BC7B45BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 451D5613614246BFB1A27DA5;
+			remoteInfo = asteroids;
+		};
+		773EF682BDE94A2AB68564D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8ED865327BD4203BC7B45BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C8E1DAD5424D288BE8A7A0;
+			remoteInfo = ZERO_CHECK;
+		};
+		8ABE94E4E2B34017A1438E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8ED865327BD4203BC7B45BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C8E1DAD5424D288BE8A7A0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBDF46B0714475B82646E4D /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		726E663D3B0D4805913134F4 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		96AF7C28C9754D2F9808FEBA /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = Game.cpp; sourceTree = SOURCE_ROOT; };
+		A8943460A3574A478112742E /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Asteroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Asteroid.cpp; path = Asteroid.cpp; sourceTree = SOURCE_ROOT; };
+		AA6FC6CF762C415598B6FB73 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = Player.cpp; sourceTree = SOURCE_ROOT; };
+		B412DB818D994CE994E050F8 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA30CA377F5D442D867413C7 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		DE2A59BD664D4BA0A555236C /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Bullet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Bullet.cpp; path = Bullet.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BD82541763904C229BEE2EA9 /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				DFA9287DF57C4DD7BB325212 /* Source Files */,
+				726E663D3B0D4805913134F4 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */,
+			);
+			name = asteroids;
+			sourceTree = "<group>";
+		};
+		DFA9287DF57C4DD7BB325212 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8943460A3574A478112742E /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Asteroid.cpp */,
+				DE2A59BD664D4BA0A555236C /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Bullet.cpp */,
+				96AF7C28C9754D2F9808FEBA /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Game.cpp */,
+				AA6FC6CF762C415598B6FB73 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Player.cpp */,
+				CA30CA377F5D442D867413C7 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E1E3661E2B2648FF93FBBE28 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EA3B3213A4D94F6A865BC44F = {
+			isa = PBXGroup;
+			children = (
+				BD82541763904C229BEE2EA9 /* asteroids */,
+				F51F61FB34174DE091624A5C /* ALL_BUILD */,
+				F20DE02B62594128809AE2A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20DE02B62594128809AE2A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B412DB818D994CE994E050F8 /* asteroids */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51F61FB34174DE091624A5C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3661E2B2648FF93FBBE28 /* CMake Rules */,
+				2FBDF46B0714475B82646E4D /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451D5613614246BFB1A27DA5 /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0F1FD29E204FA7A8612E9A /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				DBDB2862302F4E82BC835B68 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD554D0DB2047FB9B9CD47E /* PBXTargetDependency */,
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = B412DB818D994CE994E050F8 /* asteroids */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8ED865327BD4203BC7B45BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 08C45E0F5ACB49538044D956 /* Build configuration list for PBXProject "asteroids" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4720CF3B5EE84129A9EF6934 /* Debug */,
+				C2ECE8CE70604EFBA4A8D331 /* Release */,
+				F991C5D989B34894BFA1F00F /* MinSizeRel */,
+				08A7572B118D48FF88F07FA4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EA3B3213A4D94F6A865BC44F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				7A770274574A4F5C908B68D7 /* ALL_BUILD */,
+				77C8E1DAD5424D288BE8A7A0 /* ZERO_CHECK */,
+				451D5613614246BFB1A27DA5 /* asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127FF55836BA4A35856565F4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode -f /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		523F6B09CC0A405F96A373D3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BEFBD52C08C74FED899E5C1B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E0995D2C311C43F3805C1404 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode -f /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDB2862302F4E82BC835B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0939FC34B70B4B4CBBCCFA3B /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Asteroid.cpp */,
+				943E6FBC65C443B4AF2F646A /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Bullet.cpp */,
+				D2298DE11BA1438FB6DF68CF /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Game.cpp */,
+				0C5E312F9F4941E08A2D5350 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/Player.cpp */,
+				9CF648AAF99A4D1791A4E010 /* /Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1041FF62CF274A84A39A3E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C8E1DAD5424D288BE8A7A0 /* ZERO_CHECK */;
+			targetProxy = 773EF682BDE94A2AB68564D4 /* PBXContainerItemProxy */;
+		};
+		3FD554D0DB2047FB9B9CD47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C8E1DAD5424D288BE8A7A0 /* ZERO_CHECK */;
+			targetProxy = 8ABE94E4E2B34017A1438E8B /* PBXContainerItemProxy */;
+		};
+		9AD0B0A5E7A34DEAB788BE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 451D5613614246BFB1A27DA5 /* asteroids */;
+			targetProxy = 67C37037167943B9BD4F58B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B342F6D0C324A7CBA2B73EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.dylib /usr/local/lib/libsfml-window.dylib /usr/local/lib/libsfml-system.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		31EF3D9A65A344CB990B9AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.dylib /usr/local/lib/libsfml-window.dylib /usr/local/lib/libsfml-system.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		37ACB96314A24E338CD12DE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		429DAFEF42FE47BFA373B2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/build";
+			};
+			name = Debug;
+		};
+		4424020E62E44D15998D7727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4BBF14DD89D54DB28EDC04C7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		56F010B19F9E419CB2A244F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		584FCBC2EB07403A813430D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C9015E4C5634DF4B4D8DE0B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7E97F69E97F7482293DABD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C29FD8CAE5BF4771B08A8266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.dylib /usr/local/lib/libsfml-window.dylib /usr/local/lib/libsfml-system.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C732592FCFAF4F67AE057181 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "'-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libsfml-graphics.dylib /usr/local/lib/libsfml-window.dylib /usr/local/lib/libsfml-system.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DBF3BA5902B44BDB88609695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E0E5F7CA8D084A4B9D5797B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/build";
+			};
+			name = Release;
+		};
+		F560A48B9EF84294B9B96855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F7E2BE7289634B5C933D574C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C45E0F5ACB49538044D956 /* Build configuration list for PBXProject "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429DAFEF42FE47BFA373B2FF /* Debug */,
+				E0E5F7CA8D084A4B9D5797B6 /* Release */,
+				4BBF14DD89D54DB28EDC04C7 /* MinSizeRel */,
+				F7E2BE7289634B5C933D574C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C0F1FD29E204FA7A8612E9A /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EF3D9A65A344CB990B9AC1 /* Debug */,
+				C29FD8CAE5BF4771B08A8266 /* Release */,
+				0B342F6D0C324A7CBA2B73EB /* MinSizeRel */,
+				C732592FCFAF4F67AE057181 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94C8E1E9D31343DBA0C910CC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F560A48B9EF84294B9B96855 /* Debug */,
+				DBF3BA5902B44BDB88609695 /* Release */,
+				584FCBC2EB07403A813430D4 /* MinSizeRel */,
+				56F010B19F9E419CB2A244F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F1AC1B2E7764614872FBD43 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E97F69E97F7482293DABD84 /* Debug */,
+				4424020E62E44D15998D7727 /* Release */,
+				37ACB96314A24E338CD12DE5 /* MinSizeRel */,
+				6C9015E4C5634DF4B4D8DE0B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8ED865327BD4203BC7B45BD /* Project object */;
+}

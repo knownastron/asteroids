@@ -1,0 +1,3 @@
+/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/CMakeFiles/asteroids.dir
+/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/jasontran/Documents/TiaJason/g_assignment08-asteroids/xcode/CMakeFiles/ZERO_CHECK.dir
